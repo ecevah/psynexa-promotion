@@ -1,0 +1,56 @@
+.device-1 {
+  position: absolute;
+  z-index: 10;
+  scale: 0.8;
+  opacity: 0;
+}
+.device-1.animate {
+  animation-name: device-1-animate;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.device-2 {
+  position: absolute;
+  scale: 0.8;
+  opacity: 0;
+}
+
+.device-2.animate {
+  animation-name: device-2-animate;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes device-1-animate {
+  from {
+    top: 0px;
+    right: 70px;
+    opacity: 1;
+  }
+  to {
+    top: 20px;
+    right: -70px;
+    rotate: 45deg;
+    opacity: 1;
+  }
+}
+
+@keyframes device-2-animate {
+  from {
+    top: 0px;
+    right: -330px;
+    rotate: 30deg;
+    opacity: 1;
+  }
+  to {
+    top: 0px;
+    right: -100px;
+    rotate: -15deg;
+    opacity: 1;
+  }
+}

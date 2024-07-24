@@ -1,0 +1,170 @@
+.radial-gradient-white {
+  border-radius: 504.989px;
+  border: 0.3px solid rgba(255, 255, 255, 0.6);
+  background: linear-gradient(
+    174deg,
+    rgba(10, 110, 189, 0.24) -167.32%,
+    rgba(179, 208, 255, 0.32) 114.25%
+  );
+  filter: blur(100px);
+  transform: rotate(-45deg);
+  flex-shrink: 0;
+  left: calc((100% - 500px) / 2);
+  bottom: 18%;
+  animation-name: radial-gradient-white-animate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes radial-gradient-white-animate {
+  from {
+    left: calc((100% - 500px) / 2);
+    bottom: 18%;
+  }
+  to {
+    left: 300px;
+    bottom: 30%;
+  }
+}
+
+.ripple {
+  position: absolute;
+  bottom: 18%;
+  left: calc((100% - 400px) / 2);
+  width: 400px;
+  height: 400px;
+  border: solid 0.3px rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: ripple 3s infinite;
+  opacity: 0;
+}
+
+.ripple:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.ripple:nth-child(3) {
+  animation-delay: 2s;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+@keyframes hero-content-animate {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-300px);
+  }
+}
+
+@keyframes hero-content-title-animate {
+  from {
+    text-align: center;
+  }
+  to {
+    text-align: start;
+  }
+}
+
+@keyframes hero-content-text-animate {
+  from {
+    text-align: center;
+    margin-left: 0px;
+  }
+  to {
+    text-align: start;
+    margin-left: -160px;
+  }
+}
+@keyframes hero-content-button-animate {
+  from {
+    margin-left: 0px;
+  }
+  to {
+    margin-left: -370px;
+  }
+}
+
+.hero-content {
+  animation-name: hero-content-animate;
+  animation-duration: 2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation-timing-function: ease-in-out;
+  justify-content: center;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+.hero-content-text {
+  animation-name: hero-content-text-animate;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  text-align: center;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-left: 0px;
+  animation-delay: 3s;
+}
+
+.hero-content-title {
+  animation-name: hero-content-title-animate;
+  animation-duration: 0s;
+  animation-timing-function: ease-in-out;
+  text-align: center;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-left: 0px;
+  animation-delay: 3s;
+}
+
+.hero-content-button {
+  animation-name: hero-content-button-animate;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  text-align: center;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-left: 0px;
+  animation-delay: 2.65s;
+}
+
+.robot {
+  position: absolute;
+  right: 300px;
+  bottom: -800px;
+  animation-name: robot-animate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-left: 0px;
+  animation-delay: 2.8s;
+}
+
+@keyframes robot-animate {
+  from {
+    right: 300px;
+    bottom: -800px;
+  }
+  to {
+    right: 300px;
+    bottom: 0px;
+  }
+}

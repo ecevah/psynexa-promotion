@@ -1,0 +1,12 @@
+.blog-card-container {
+  box-shadow: 0px 3px 6px 0px rgba(16, 20, 21, 0.25);
+}
+
+.blog-card-container:hover .blog-card-container-hover {
+  background: white; /*değişecek*/
+}
+
+.bg-color-white-list {
+  background: rgba(11, 18, 21, 0.2);
+}
+
