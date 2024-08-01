@@ -7,13 +7,13 @@ export default function VideoCard() {
     <>
       <div className="layout flex flex-col justify-center items-center pt-[64px] pb-[264px]">
         <div
-          className="linear-gradient-blue-text-reverse text-[50px] leading-[54px] font-bold w-[550px] text-center"
+          className="linear-gradient-blue-text-reverse text-[36px] sm:text-[50px] leading-[40px] sm:leading-[54px] font-bold max-w-[550px] text-center w-[90%]"
           data-aos="fade-up"
         >
           Meet Us to Understand Your Mind
         </div>
         <div
-          className="text-[17px] text-white font-light leading-[26px] text-center w-[510px] mt-[32px] mb-[64px]"
+          className="text-[17px] text-white font-light leading-[26px] text-center max-w-[510px] w-[90%] mt-[32px] mb-[64px]"
           data-aos="fade-up"
         >
           Lorem ipsum dolor sit amet consectetur. Diam amet rhoncus quisque sit.

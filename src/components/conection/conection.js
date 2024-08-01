@@ -47,11 +47,11 @@ export default function Conection() {
         <div className="rain front-row z-[100]"></div>
         <div className="rain back-row z-[100]"></div>
         <div className="layout bg-color-white-list pl-[24px] pt-[24px] pb-[24px] relative rounded-[32px] flex flex-row justify-between items-center z-[102]">
-          <div className="flex flex-col">
-            <div className="text-[50px] leading-[54px] font-bold text-white w-[530px]">
+          <div className="flex flex-col px-[20px] py-[20px]">
+            <div className="text-[36px] leading-[40px] sm:text-[50px] sm:leading-[54px] font-bold text-white max-w-[530px] w-[85%]">
               Be the first to know when we launch
             </div>
-            <div className="mt-[24px] mb-[48px] text-[17px] leading-[26px] text-white w-[430px]">
+            <div className="mt-[24px] mb-[48px] sm:text-[17px] leading-[26px] text-white max-w-[430px] w-[85%]">
               Lorem ipsum dolor sit amet consectetur. Et eu tempor nam congue
               sollicitudin. Congue sem elementum eget facilisis. Ipsum nisl
               fusce arcu scelerisque phasellus{" "}
@@ -59,7 +59,7 @@ export default function Conection() {
             <div className="w-fit relative">
               <input
                 type="text"
-                className="z-[111] py-[12px] pl-[16px] pr-[56px] placeholder:text-[17px] placeholder:text-[#0B1215] placeholder:opacity-[0.7] placeholder:font-medium w-[340px] rounded-[32px]"
+                className="z-[111] py-[12px] pl-[16px] pr-[56px] placeholder:text-[17px] placeholder:text-[#0B1215] placeholder:opacity-[0.7] placeholder:font-medium max-w-[340px] rounded-[32px]"
                 placeholder="bilgi@psynexa.com"
               />
               <Image
@@ -71,7 +71,13 @@ export default function Conection() {
               />
             </div>
           </div>
-          <Image src={HAND_ICON} alt="hand" width={611} height={415} />
+          <Image
+            src={HAND_ICON}
+            alt="hand"
+            width={611}
+            height={415}
+            className="breakpoint1020:block hidden"
+          />
         </div>
       </div>
     </>

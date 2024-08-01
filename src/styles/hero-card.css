@@ -19,7 +19,7 @@
   animation-fill-mode: forwards;
 }
 
-@keyframes radial-gradient-white-animate {
+/*@keyframes radial-gradient-white-animate {
   from {
     left: calc((100% - 500px) / 2);
     bottom: 18%;
@@ -27,6 +27,17 @@
   to {
     left: 300px;
     bottom: 30%;
+  }
+}*/
+
+@keyframes radial-gradient-white-animate {
+  from {
+    left: calc((100% - 500px) / 2);
+    bottom: 18%;
+  }
+  to {
+    left: calc((100% - 500px) / 2);
+    bottom: 18%;
   }
 }
 
@@ -99,6 +110,7 @@
   }
 }
 
+/*
 .hero-content {
   animation-name: hero-content-animate;
   animation-duration: 2s;
@@ -168,3 +180,4 @@
     bottom: 0px;
   }
 }
+*/

@@ -11,7 +11,7 @@ export default function BlogLayout({ children }) {
   return (
     <>
       <BlogHeader />
-      <div className="layout py-[96px] flex flex-row justify-between items-start h-full">
+      <div className="layout py-[96px] flex flex-row breakpoint1025:justify-between justify-center items-start h-full relative">
         <div className="h-full blog-scroll-item">{children}</div>
         <SearchBar />
       </div>

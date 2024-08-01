@@ -16,6 +16,10 @@ export const DEVICE_1 = "/image/device1.png";
 export const DEVICE_2 = "/image/device2.png";
 export const BLOG_CONTENT_IMG = "/image/blog-content.png";
 export const ROBOT = "/svg/robot.svg";
+export const HAMBURGER = "/svg/hamburger.svg";
+export const CLOSE = "/svg/close.svg";
+export const ARROW_UP = "/svg/arrow-up.svg";
+export const SEARCH = "/svg/search.svg";
 
 //HEADER
 //Header Logo
@@ -25,27 +29,27 @@ export const HEADER_LOGO = "/svg/header-logo.svg";
 export const HEADER_ITEMS = [
   {
     text: "Home",
-    link: "/",
+    link: "hero",
   },
   {
     text: "About us",
-    link: "/about",
+    link: "about-us",
   },
   {
     text: "Solutions",
-    link: "/solutions",
+    link: "solutions",
   },
   {
     text: "Blog",
-    link: "/blog",
+    link: "blog",
   },
   {
     text: "FAQ",
-    link: "/faq",
+    link: "faq",
   },
   {
     text: "Contact",
-    link: "/contact",
+    link: "contact",
   },
 ];
 

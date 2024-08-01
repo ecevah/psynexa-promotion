@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Footer from "@/components/footer/footer";
 import Conection from "@/components/conection/conection";
+import GoToTop from "@/components/gototop/gototop";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         {children}
         <Conection />
         <Footer />
+        <GoToTop />
       </body>
     </html>
   );

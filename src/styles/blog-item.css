@@ -1,12 +1,14 @@
 .blog-card-container {
   box-shadow: 0px 3px 6px 0px rgba(16, 20, 21, 0.25);
+  border: 0px solid transparent;
+  cursor: pointer;
 }
 
 .blog-card-container:hover .blog-card-container-hover {
-  background: white; /*değişecek*/
+  background: linear-gradient(90deg, #0a6ebd -24.79%, #f5f5f7 133.38%);
+  border: 1px solid white;
 }
 
 .bg-color-white-list {
   background: rgba(11, 18, 21, 0.2);
 }
-
