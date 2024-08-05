@@ -15,29 +15,36 @@ export default function OurSolutions() {
         id="solutions"
       >
         <div className="mx-auto breakpoint1025:mx-0">
-          <BlueGradientTitleCard text="Our Solutions" />
+          <BlueGradientTitleCard text="Çözümümüz" />
         </div>
         <div className="flex flex-col justify-between items-center mt-[20px] mb-[152px] breakpoint1025:flex-row">
           <div
             data-aos="fade-right"
-            className="linear-gradient-blue-text text-[45px] text-center sm:text-start sm:text-[50px] font-bold leading-[54px] w-[390px] breakpoint1025:mb-0 mb-5"
+            className="linear-gradient-blue-text text-[40px] text-center sm:text-start breakpoint1025:text-start sm:text-[50px] font-bold leading-[54px] w-[400px] breakpoint1025:mb-0 mb-5"
           >
-            Push the Limits, Realize Dreams.
+            Kendinin farkına var
           </div>
           <div
             data-aos="fade-left"
-            className="text-[17px] font-light leading-[26px] text-white max-w-[570px] w-[90%] text-center breakpoint1025:text-left"
+            className="text-[17px] font-light leading-[26px] text-white max-w-[570px] w-[90%] text-center breakpoint1025:text-start"
           >
-            Lorem ipsum dolor sit amet consectetur. Diam amet rhoncus quisque
-            sit. Ultricies facilisi pharetra eu elit feugiat. Placerat lectus
-            laoreet maecenas ullamcorper. Elementum feugiat sit consectetur at
-            sit.
+            Psynexa, mental destek hizmeti almak isteyen herkese, kendilerini
+            daha iyi anlamaları için bir ortam sunmayı amaçlar.
           </div>
         </div>
         <div className="hidden flex-row w-full justify-between breakpoint1295:flex">
-          <SolutionsCard />
-          <SolutionsCard />
-          <SolutionsCard />
+          <SolutionsCard
+            title="Nexabot"
+            text="Nexabot, kişilerle iletişim kurarak meditasyonlar, egzersizler ve objektif testlerle duygusal dengeyi sağlamaya yardımcı olur."
+          />
+          <SolutionsCard
+            title="Akıllı Saat Verilerinin Yorumlanması"
+            text="Kişilerin akıllı saat verileri yapay zeka tarafından detaylı analiz edilerek, psikolojik rahatsızlıklara olan eğilimleri ölçülür."
+          />
+          <SolutionsCard
+            title="Yapay Zeka Destekli Online Terapi"
+            text="Psynexa, kişilere yetkin psikologlarla online terapi yapma imkanı sunar. Aynı zamanda, kişinin verilerini yapay zeka ile analiz ederek psikoloğa sunar ve terapi sürecini optimize etmeyi hedefler."
+          />
         </div>
       </div>
       <div className="breakpoint1295:mb-0 mb-[158px] block breakpoint1295:hidden">
@@ -62,17 +69,26 @@ export default function OurSolutions() {
         >
           <SwiperSlide>
             <div className="flex justify-center items-center">
-              <SolutionsCard />
+              <SolutionsCard
+                title="Nexabot"
+                text="Nexabot, kişilerle iletişim kurarak meditasyonlar, egzersizler ve objektif testlerle duygusal dengeyi sağlamaya yardımcı olur."
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex justify-center items-center">
-              <SolutionsCard />
+              <SolutionsCard
+                title="Akıllı Saat Verilerinin Yorumlanması"
+                text="Kişilerin akıllı saat verileri yapay zeka tarafından detaylı analiz edilerek, psikolojik rahatsızlıklara olan eğilimleri ölçülür."
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex justify-center items-center">
-              <SolutionsCard />
+              <SolutionsCard
+                title="Yapay Zeka Destekli Online Terapi"
+                text="Psynexa, kişilere yetkin psikologlarla online terapi yapma imkanı sunar. Aynı zamanda, kişinin verilerini yapay zeka ile analiz ederek psikoloğa sunar ve terapi sürecini optimize etmeyi hedefler."
+              />
             </div>
           </SwiperSlide>
         </Swiper>

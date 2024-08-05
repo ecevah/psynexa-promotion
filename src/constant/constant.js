@@ -28,15 +28,15 @@ export const HEADER_LOGO = "/svg/header-logo.svg";
 //Header Items
 export const HEADER_ITEMS = [
   {
-    text: "Home",
+    text: "Ana Sayfa",
     link: "hero",
   },
   {
-    text: "About us",
+    text: "Hakkımızda",
     link: "about-us",
   },
   {
-    text: "Solutions",
+    text: "Çözümlerimiz",
     link: "solutions",
   },
   {
@@ -44,11 +44,11 @@ export const HEADER_ITEMS = [
     link: "blog",
   },
   {
-    text: "FAQ",
+    text: "S.S.S.",
     link: "faq",
   },
   {
-    text: "Contact",
+    text: "İletişim",
     link: "contact",
   },
 ];
@@ -63,24 +63,14 @@ export const HEADER_BUTTON = {
 //Faq Content
 export const FAQ_CONTENT = [
   {
-    title: "What features does Psynexa offer?",
-    text: "What features does Psynexa offer?",
+    title: "Psynexa güvenli mi?",
+    text:
+      "Psynexa, kullanıcı verilerini ve analizlerini uçtan uca şifreleyerek korur. Bu veriler yalnızca kullanıcının izniyle kişisel psikoloğuyla paylaşılır.",
   },
   {
-    title: "What features does Psynexa offer?",
-    text: "What features does Psynexa offer?",
-  },
-  {
-    title: "What features does Psynexa offer?",
-    text: "What features does Psynexa offer?",
-  },
-  {
-    title: "What features does Psynexa offer?",
-    text: "What features does Psynexa offer?",
-  },
-  {
-    title: "What features does Psynexa offer?",
-    text: "What features does Psynexa offer?",
+    title: "Yapay zeka nasıl bir analiz gerçekleştiriyor?",
+    text:
+      "Yapay zeka, Nexabot ile yapılan konuşmalardan işitsel, metinsel ve görüntüsel verileri detaylı bir şekilde analiz eder ve bu veriler yalnızca kullanıcının isteği doğrultusunda psikoloğa iletilir.",
   },
 ];
 
@@ -108,28 +98,28 @@ export const FOOTER_TEXT =
 //Footer Exlore Item
 export const FOOTER_EXPLORER_ITEM = [
   {
-    text: "Home",
-    link: "/",
+    text: "Ana Sayfa",
+    link: "hero",
   },
   {
-    text: "About us",
-    link: "/about",
+    text: "Hakkımızda",
+    link: "about-us",
   },
   {
-    text: "Solutions",
-    link: "/solutions",
+    text: "Çözümlerimiz",
+    link: "solutions",
   },
   {
     text: "Blog",
-    link: "/blog",
+    link: "blog",
   },
   {
-    text: "FAQ",
-    link: "/faq",
+    text: "S.S.S.",
+    link: "faq",
   },
   {
-    text: "Contact",
-    link: "/contact",
+    text: "İletişim",
+    link: "contact",
   },
 ];
 
@@ -160,9 +150,8 @@ export const FOOTER_LEGAL_ITEM = [
 //Footer Contact
 export const FOOTER_CONTACT = {
   email: "psynexa@gmail.com",
-  phone: "+90 (656) 545 45 56",
-  address:
-    "From 23rd Street at Madison Square south to 142nd Street on Harlem River Drive",
+  phone: "+90 (542) 135 49 28",
+  address: "",
 };
 
 //SEARCH BAR

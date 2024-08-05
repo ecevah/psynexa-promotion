@@ -14,10 +14,10 @@ export default function SolutionsCard(props) {
         </div>
 
         <div className="text-[24px] font-bold leading-[26px] text-white mt-[32px] mb-[16px]">
-          Başlık
+          {props.title}
         </div>
         <div className="text-[17px] font-light leading-[26px] text-white w-[300px]">
-          Lorem ipsum dolor sit amet consectetur. Diam amet rhoncus quisque sit.
+          {props.text}
         </div>
       </div>
     </>

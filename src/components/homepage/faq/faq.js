@@ -11,7 +11,7 @@ export default function Faq(props) {
         data-aos="fade-up"
       >
         <div className="linear-gradient-dark-blue-text text-[36px] sm:text-[50px] font-bold leading-[40px] sm:leading-[54px] max-w-[550px] w-[100%] text-center mb-[96px]">
-          Got Questions? We've Got Answers!
+          Sıkça Sorulan Sorular
         </div>
         <div className="max-w-[824px] w-full mx-auto flex flex-col faq-item">
           {FAQ_CONTENT.map((item, index) => (

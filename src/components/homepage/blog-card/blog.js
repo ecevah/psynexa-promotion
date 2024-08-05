@@ -19,12 +19,12 @@ export default function Blog() {
         id="blog"
       >
         <div className="flex flex-col breakpoint769:mr-[90px] breakpoint769:mb-0 mb-[30px] items-center breakpoint769:items-start mx-auto breakpoint769:mx-0">
-          <BlueGradientTitleCard text="Our Latest News" />
+          <BlueGradientTitleCard text="Son Paylaşımlar" />
           <div
             data-aos="fade-left"
             className="text-[50px] font-bold leading-[54px] text-[#0B1215] w-[350px] mt-[20px] mb-[40px] text-center breakpoint769:text-start"
           >
-            Latest News & Articles
+            Blog & Makale
           </div>
           <Link href={"/blog"}>
             <div
@@ -33,7 +33,7 @@ export default function Blog() {
             >
               <Image src={EDIT_WHITE} width={24} height={24} alt="edit" />
               <div className="text-[20px] leading-[26px] text-white ml-[16px]">
-                See More
+                Daha Fazla Gör
               </div>
             </div>
           </Link>

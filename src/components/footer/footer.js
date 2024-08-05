@@ -28,17 +28,7 @@ export default function Footer() {
             <p
               className="my-[29px] text-[17px] leading-[26px] font-medium max-w-[430px] w-[99%] breakpoint1207:text-left text-center"
               data-aos="fade-up"
-            >
-              Lorem ipsum dolor sit amet consectetur. Et eu tempor nam congue
-              sollicitudin. Congue sem elementum eget facilisis. Ipsum nisl
-              fusce arcu scelerisque phasellus. Lorem ipsum dolor sit amet
-              consectetur. Et eu tempor nam congue sollicitudin. Congue sem
-              elementum eget facilisis. Ipsum nisl fusce arcu scelerisque
-              phasellus. <br></br>
-              <br></br>Lorem ipsum dolor sit amet consectetur. Et eu tempor nam
-              congue sollicitudin. Congue sem elementum eget facilisis. Ipsum
-              nisl fusce arcu scelerisque phasellus{" "}
-            </p>
+            ></p>
             <div className="hidden breakpoint1207:flex flex-row ">
               <div
                 className="w-[48px] h-[48px] rounded-full flex justify-center items-center bg-[#EEF5FF] p-[12px]"
@@ -63,7 +53,7 @@ export default function Footer() {
                 className="text-[24px] leading-[26px]  text-[#0B1215] mb-[14px]"
                 data-aos="fade-up"
               >
-                Explore
+                Keşfet
               </div>
               {FOOTER_EXPLORER_ITEM.map((item, index) => (
                 <div
@@ -97,10 +87,10 @@ export default function Footer() {
                 className="text-[24px] leading-[26px]  text-[#0B1215] mb-[14px]"
                 data-aos="fade-up"
               >
-                Let's Contact
+                İletişim
               </div>
               <div
-                className="font-light text-[17px] leading-[26px] my-[10px]"
+                className="font-light text-[17px] leading-[26px] my-[10px] hidden"
                 data-aos="fade-up"
               >
                 {FOOTER_CONTACT.address}

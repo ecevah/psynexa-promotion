@@ -12,12 +12,12 @@ export default function AboutUs() {
       <div className="overflow-hidden" id="about-us">
         <div className="relative layout">
           <div className="flex flex-col pt-[128px] breakpoint1300:pb-[160px] pb-[470px]">
-            <BlueGradientTitleCard text="About Us" />
+            <BlueGradientTitleCard text="Hakkımızda" />
             <p
               className="text-[50px] font-bold leading-[54px] text-black max-w-[400px] w-full mt-[20px] mb-[32px]"
               data-aos="fade-right"
             >
-              Push the Limits, Realize Dreams.
+              Duygusal Sınırları Aş, Yeni Ufuklara Yelken Aç
             </p>
             <div className="flex flex-row items-center" ref={ref}>
               <Image
@@ -31,26 +31,31 @@ export default function AboutUs() {
                 className="text-[17px] font-semibold leading-[26px] text-black max-w-[620px] w-full ml-[10px] "
                 data-aos="fade-right"
               >
-                Lorem ipsum dolor sit amet consectetur. Diam amet rhoncus
-                quisque sit. Ultricies facilisi pharetra eu elit feugiat.
-                Placerat lectus laoreet maecenas ullamcorper. Elementum feugiat
-                sit consectetur at sit. In aliquam in ipsum rhoncus pharetra
-                elit in. Elit ut volutpat nequelaoreet in praesent eget. Viverra
-                arcu neque etiam nascetur venenatis consequat et. Augue sed non
-                odio rutrum. Egestas hac maecenas augue iaculis etiam.
+                Psynexa, Kasım 2022'de kuruldu ve kısa sürede dikkat çekici
+                başarılar elde etti. 2023 Nisan ayında İstanbul'da düzenlenen
+                TEKNOFEST'te Psikolojide Teknolojik Uygulamalar yarışmasında
+                ikincilik ödülü kazandı. Ardından, takımımızdan Ahmet ve Halil
+                İbrahim, 2023 Eylül ayında TEKNOFEST İzmir girişimcilik
+                yarışmasında sağlık ve iyi yaşam kategorisinde beşincilik elde
+                etti. Bu başarılar, Psynexa'nın geleceğine olan inancımızı
+                pekiştirdi ve bizi daha büyük adımlar atmaya motive etti.
               </div>
             </div>
             <div
               className="text-[17px] font-medium leading-[26px] text-black max-w-[620px] w-[98%] mt-[20px] sm:mx-0 mx-[10px]"
               data-aos="fade-right"
             >
-              Lorem ipsum dolor sit amet consectetur. Diam amet rhoncus quisque
-              sit. Ultricies facilisi pharetra eu elit feugiat. Placerat lectus
-              laoreet maecenas ullamcorper. Elementum feugiat sit consectetur at
-              sit. In aliquam in ipsum rhoncus pharetra elit in. Elit ut
-              volutpat neque rhoncus laoreet in praesent eget. Viverra arcu
-              neque etiam nascetur venenatis consequat et. Augue sed non odio
-              rutrum. Egestas hac maecenas augue iaculis etiam.
+              Yolculuğumuza 9 kişilik bir ekip olarak başladık ve ürünümüzü
+              sürekli olarak geliştirerek, 2023 Ekim ayında TEKNOFEST'te
+              beşincilik elde ettik. Temmuz 2024'te, Türkiye Bilimsel ve
+              Teknolojik Araştırma Kurumu (TÜBİTAK) tarafından düzenlenen 2024-1
+              BİGG Yatırım Çağrısı kapsamında Mükemmeliyet Mührü'nü kazandık. Bu
+              ödül, girişimimizin kalitesini ve potansiyelini uluslararası
+              düzeyde kanıtladı. Ayrıca, TEKNOFEST 2024'te Psikolojide
+              Teknolojik Uygulamalar kategorisinde 92.67 puan alarak finale
+              kalmamız, başarılarımızın somut bir göstergesi oldu. Psynexa
+              olarak, yenilikçi çözümler sunmaya ve sürekli gelişmeye devam
+              ediyoruz.
             </div>
           </div>
           <Image

@@ -51,7 +51,7 @@ export default function Header() {
           <Items />
           <Link href={"/"} className="hidden breakpoint1025:block">
             <div className="text-center text-[17px] font-medium text-[#0B1215] px-[35px] py-[12px] rounded-[32px] bg-white">
-              Let's Talk
+              Şimdi Dene
             </div>
           </Link>
           <div

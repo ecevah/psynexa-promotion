@@ -27,7 +27,7 @@ export default function FaqItem(props) {
         ></div>
         <div className="flex flex-row w-full justify-between items-center cursor-pointer">
           <div className="text-[17px] leading-[26px] text-[#0B1215] font-medium">
-            What features does Psynexa offer?
+            {props.title}
           </div>
           <div
             style={{
@@ -46,9 +46,7 @@ export default function FaqItem(props) {
           }`}
         >
           <p className="pt-[24px] text-[#0B1215] text-opacity-80">
-            Here is the content that will show more details about the features
-            Psynexa offers. This content can include various text elements,
-            links, and even images if necessary.
+            {props.text}
           </p>
         </div>
       </div>

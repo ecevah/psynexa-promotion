@@ -49,12 +49,11 @@ export default function Conection() {
         <div className="layout bg-color-white-list pl-[24px] pt-[24px] pb-[24px] relative rounded-[32px] flex flex-row justify-between items-center z-[102]">
           <div className="flex flex-col px-[20px] py-[20px]">
             <div className="text-[36px] leading-[40px] sm:text-[50px] sm:leading-[54px] font-bold text-white max-w-[530px] w-[85%]">
-              Be the first to know when we launch
+              Kendini tanımak için tıkla.
             </div>
             <div className="mt-[24px] mb-[48px] sm:text-[17px] leading-[26px] text-white max-w-[430px] w-[85%]">
-              Lorem ipsum dolor sit amet consectetur. Et eu tempor nam congue
-              sollicitudin. Congue sem elementum eget facilisis. Ipsum nisl
-              fusce arcu scelerisque phasellus{" "}
+              Daha fazla bilgi almak ve bizimle iletişime geçmek için e-posta
+              adresinizi bırakın.
             </div>
             <div className="w-fit relative">
               <input
